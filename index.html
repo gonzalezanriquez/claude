@@ -14,11 +14,13 @@
 <body>
   <canvas id="webgl" aria-hidden="true"></canvas>
   <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
 
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Ir al inicio">LGA<span>®</span></a>
     <nav class="nav" aria-label="Navegación principal">
       <a href="#enfoque">Enfoque</a>
+      <a href="#proyectos">Proyectos</a>
       <a href="#servicios">Capacidades</a>
       <a href="#experiencia">Trayectoria</a>
       <a href="#contacto">Contacto</a>
@@ -39,63 +41,69 @@
           </h1>
         </div>
         <div class="hero-side reveal">
-          <p>
-            Perfil híbrido entre comunicación, diseño, UX, educación y tecnología. Transformo problemas complejos en experiencias digitales claras, memorables y técnicamente viables.
-          </p>
-          <div class="hero-meta">
-            <span>Buenos Aires</span>
-            <span>10+ años de experiencia</span>
-            <span>MBA Candidate</span>
-          </div>
+          <p>Perfil híbrido entre comunicación, diseño, UX, educación y tecnología. Transformo problemas complejos en experiencias digitales claras, memorables y técnicamente viables.</p>
+          <div class="hero-meta"><span>Buenos Aires</span><span>10+ años de experiencia</span><span>MBA Candidate</span></div>
         </div>
       </div>
-      <div class="hero-orbit" aria-hidden="true">
-        <span>Strategy</span><span>UX</span><span>Art Direction</span><span>Creative Tech</span>
-      </div>
+      <div class="hero-orbit" aria-hidden="true"><span>Strategy</span><span>UX</span><span>Art Direction</span><span>Creative Tech</span></div>
+      <div class="scroll-cue" aria-hidden="true"><span>Scroll to explore</span><i></i></div>
     </section>
 
     <section class="manifesto section-pad" id="enfoque">
       <div class="section-label reveal">01 / ENFOQUE</div>
       <div class="manifesto-grid">
-        <p class="manifesto-lead reveal-lines">
-          No pienso una web como una suma de pantallas. La pienso como un sistema de decisiones.
-        </p>
+        <p class="manifesto-lead reveal-lines">No pienso una web como una suma de pantallas. La pienso como un sistema de decisiones.</p>
         <div class="manifesto-copy reveal">
-          <p>
-            Cada proyecto empieza por entender qué problema se resuelve, qué debe sentir el usuario y qué idea tiene que quedar en la memoria. Después aparecen la dirección de arte, la interacción y el stack.
-          </p>
-          <p>
-            El objetivo no es sumar efectos. Es construir una experiencia con intención.
-          </p>
+          <p>Cada proyecto empieza por entender qué problema se resuelve, qué debe sentir el usuario y qué idea tiene que quedar en la memoria. Después aparecen la dirección de arte, la interacción y el stack.</p>
+          <p>El objetivo no es sumar efectos. Es construir una experiencia con intención.</p>
         </div>
       </div>
     </section>
 
-    <section class="pillars section-pad">
-      <article class="pillar reveal">
-        <span class="pillar-index">A</span>
-        <h2>Estrategia</h2>
-        <p>Objetivos de negocio, problema, usuario, posicionamiento y arquitectura antes de diseñar.</p>
+    <section class="projects section-pad" id="proyectos">
+      <div class="section-label reveal">02 / SELECTED DIRECTIONS</div>
+      <div class="projects-intro">
+        <h2 class="projects-title reveal-lines">Experiencias donde estrategia, contenido y tecnología se cruzan.</h2>
+        <p class="reveal">Una selección de territorios de trabajo que representan el tipo de problemas que me interesa resolver: instituciones, educación, cultura e innovación digital.</p>
+      </div>
+
+      <article class="project-card project-card--light reveal" data-project="01">
+        <div class="project-meta"><span>01</span><span>Digital Experience</span><span>Institutional</span></div>
+        <div class="project-copy">
+          <h3>Sistemas digitales para instituciones complejas.</h3>
+          <p>Arquitectura de información, identidad, UX y desarrollo para convertir estructuras institucionales densas en experiencias simples y navegables.</p>
+        </div>
+        <div class="project-visual visual-grid" aria-hidden="true"><div></div><div></div><div></div><div></div></div>
       </article>
-      <article class="pillar reveal">
-        <span class="pillar-index">B</span>
-        <h2>Experiencia</h2>
-        <p>UX, narrativa, jerarquía y recorridos que ayudan a entender, sentir y actuar.</p>
+
+      <article class="project-card project-card--acid reveal" data-project="02">
+        <div class="project-meta"><span>02</span><span>Innovation</span><span>Education</span></div>
+        <div class="project-copy">
+          <h3>Experiencias de aprendizaje que se sienten digitales de verdad.</h3>
+          <p>Diseño pedagógico, interfaces, prototipos y tecnologías emergentes para proyectos donde aprender también es interactuar, explorar y crear.</p>
+        </div>
+        <div class="project-visual visual-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
       </article>
-      <article class="pillar reveal">
-        <span class="pillar-index">C</span>
-        <h2>Dirección de arte</h2>
-        <p>Tipografía, ritmo, composición, identidad visual y una estética con una lógica propia.</p>
-      </article>
-      <article class="pillar reveal">
-        <span class="pillar-index">D</span>
-        <h2>Tecnología</h2>
-        <p>Implementación con el stack adecuado: web moderna, animación, datos, IA y 3D cuando aporta valor.</p>
+
+      <article class="project-card project-card--ink reveal" data-project="03">
+        <div class="project-meta"><span>03</span><span>Communication</span><span>Culture</span></div>
+        <div class="project-copy">
+          <h3>Narrativas digitales para cultura, comunicación y marca.</h3>
+          <p>Storytelling, diseño editorial, motion y sistemas visuales que ordenan el mensaje sin perder personalidad.</p>
+        </div>
+        <div class="project-visual visual-type" aria-hidden="true"><span>N</span><span>A</span><span>R</span><span>R</span><span>A</span><span>T</span><span>I</span><span>V</span><span>E</span></div>
       </article>
     </section>
 
+    <section class="pillars section-pad">
+      <article class="pillar reveal"><span class="pillar-index">A</span><h2>Estrategia</h2><p>Objetivos de negocio, problema, usuario, posicionamiento y arquitectura antes de diseñar.</p></article>
+      <article class="pillar reveal"><span class="pillar-index">B</span><h2>Experiencia</h2><p>UX, narrativa, jerarquía y recorridos que ayudan a entender, sentir y actuar.</p></article>
+      <article class="pillar reveal"><span class="pillar-index">C</span><h2>Dirección de arte</h2><p>Tipografía, ritmo, composición, identidad visual y una estética con una lógica propia.</p></article>
+      <article class="pillar reveal"><span class="pillar-index">D</span><h2>Tecnología</h2><p>Implementación con el stack adecuado: web moderna, animación, datos, IA y 3D cuando aporta valor.</p></article>
+    </section>
+
     <section class="capabilities section-pad" id="servicios">
-      <div class="section-label reveal">02 / CAPACIDADES</div>
+      <div class="section-label reveal">03 / CAPACIDADES</div>
       <div class="capability-list">
         <div class="cap-row reveal"><span>01</span><h3>Digital Strategy</h3><p>Posicionamiento, comunicación, contenidos y sistemas digitales.</p></div>
         <div class="cap-row reveal"><span>02</span><h3>UX / UI</h3><p>Investigación, arquitectura, journeys, prototipos e interfaces.</p></div>
@@ -107,11 +115,9 @@
     </section>
 
     <section class="experience section-pad" id="experiencia">
-      <div class="section-label reveal">03 / TRAYECTORIA</div>
+      <div class="section-label reveal">04 / TRAYECTORIA</div>
       <div class="experience-grid">
-        <div class="experience-statement reveal-lines">
-          Más de una década moviéndome entre instituciones, educación, comunicación, diseño y tecnología.
-        </div>
+        <div class="experience-statement reveal-lines">Más de una década moviéndome entre instituciones, educación, comunicación, diseño y tecnología.</div>
         <div class="timeline">
           <div class="timeline-item reveal"><span>Ahora</span><div><h3>MBA · UCA</h3><p>Formación en estrategia, negocio y gestión para ampliar la mirada sobre productos y experiencias digitales.</p></div></div>
           <div class="timeline-item reveal"><span>Formación</span><div><h3>Comunicación Digital e Interactiva · Sistemas · Gestión Cultural</h3><p>Una trayectoria académica interdisciplinaria que conecta tecnología, cultura, comunicación y diseño.</p></div></div>
@@ -121,7 +127,7 @@
     </section>
 
     <section class="process section-pad">
-      <div class="section-label reveal">04 / MÉTODO</div>
+      <div class="section-label reveal">05 / MÉTODO</div>
       <div class="process-track">
         <div class="process-step reveal"><span>01</span><strong>Problema</strong><small>Qué hay que resolver</small></div>
         <div class="process-step reveal"><span>02</span><strong>Usuario</strong><small>Qué necesita entender</small></div>
@@ -134,23 +140,19 @@
 
     <section class="contact section-pad" id="contacto">
       <div class="contact-orbit" aria-hidden="true"></div>
-      <div class="section-label reveal">05 / CONTACTO</div>
+      <div class="section-label reveal">06 / CONTACTO</div>
       <div class="contact-inner">
         <p class="contact-eyebrow reveal">¿Tenés un proyecto que necesite algo más que “una web linda”?</p>
         <h2 class="contact-title reveal-lines">Construyamos una experiencia que tenga una idea detrás.</h2>
         <div class="contact-actions reveal">
-          <a class="button button-primary" href="https://www.linkedin.com/in/gonzalezanriquez/" target="_blank" rel="noreferrer">Hablar por LinkedIn ↗</a>
-          <a class="button button-ghost" href="https://github.com/gonzalezanriquez" target="_blank" rel="noreferrer">Ver GitHub ↗</a>
+          <a class="button button-primary magnetic" href="https://www.linkedin.com/in/gonzalezanriquez/" target="_blank" rel="noreferrer">Hablar por LinkedIn ↗</a>
+          <a class="button button-ghost magnetic" href="https://github.com/gonzalezanriquez" target="_blank" rel="noreferrer">Ver GitHub ↗</a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <span>Leandro González Anríquez</span>
-    <span>Strategy · Design · Technology</span>
-    <span>© <span id="year"></span></span>
-  </footer>
+  <footer><span>Leandro González Anríquez</span><span>Strategy · Design · Technology</span><span>© <span id="year"></span></span></footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r160/three.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
