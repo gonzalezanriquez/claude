@@ -1,0 +1,10 @@
+CLAUDE PREMIUM WEB AGENT
+
+1. Subí esta carpeta a un repo de GitHub.
+2. Abrila con Claude Code web.
+3. Editá profile/PROFILE.md.
+4. Pedile a Claude que lea CLAUDE.md.
+5. Usá prompts/01-primer-proyecto.md.
+6. Elegí un concepto.
+7. Usá prompts/02-arquitectura-tecnica.md.
+8. Usá prompts/03-implementacion.md.
